@@ -67,7 +67,11 @@ public class TextAdventure
 		if(one.equals("palace") || one.equals("Palace"))
 			{
 			opponent = MonsterArray.monsterArray.get(0);
-			System.out.println("Your aproached by" + opponent.get(name));
+			System.out.println("Your aproached by Group of Guards");
+			System.out.println("would you like to fight or surrender?");
+			Scanner palaceChoice = new Scanner(System.in);
+			String pCHoice = 
+			if()
 			} 
 		
 		
